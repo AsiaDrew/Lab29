@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Arima', cursive;
+}
+
+body {
+    background: linear-gradient(to right,#9FC088,  #E8C07D, #CC704B,#614124 );
+    height: 100vw;
+    margin: -7px;
+    padding-top: 2%;
+    }
+
+    a {
+        color: black;
+        text-decoration: none; /* no underline */
+     }
+
+     div {
+        font-weight: 300;
+        width:70%;
+        margin-left: 15%;
+        padding:1%;
+        text-align: center;
+      }
+
+      p{
+        width: 90%;
+        margin: auto;
+      }
+
+      h1{
+        text-align: center;
+    }
+
+ 
+
+
+.postContainer{
+    font-weight: 300;
+    width:70%;
+    margin-left: 15%;
+    padding:1%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); 
+    text-align: center;
+   
+    }
+
+    @media only screen and (min-width: 600px){
+    
+        .centerImage{
+            display: flex;
+            justify-content: center;
+        }
+    }

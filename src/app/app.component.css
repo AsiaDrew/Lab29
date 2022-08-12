@@ -1,0 +1,8 @@
+div {
+    font-weight: 300;
+    width:70%;
+    margin-left: 15%;
+    padding:1%;
+    text-align: center;
+    background: linear-gradient(to right,#9FC088,  #E8C07D, #CC704B,#614124);
+  }
