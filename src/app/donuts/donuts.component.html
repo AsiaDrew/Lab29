@@ -1,0 +1,6 @@
+<h1>Donuts</h1>
+<div *ngFor="let d of donuts.results">
+  <a routerLink="/Donuts/{{ d.id }}"
+    ><p>{{ d.name }}</p></a
+  >
+</div>

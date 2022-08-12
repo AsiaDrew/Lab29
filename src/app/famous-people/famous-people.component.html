@@ -1,0 +1,6 @@
+<h1>Notable Computer People</h1>
+<div *ngFor="let g of gcComputer.complete">
+  <a routerLink="/Famouspeople/{{ g.firstName }}"
+    ><p>{{ g.firstName }} {{ g.lastName }}</p></a
+  >
+</div>
