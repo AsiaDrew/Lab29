@@ -3,10 +3,11 @@
 }
 
 body {
-    background: linear-gradient(to right,#9FC088,  #E8C07D, #CC704B,#614124 );
+    background-color: beige;
     height: 100vw;
     margin: -7px;
     padding-top: 2%;
+    background-repeat: no-repeat;
     }
 
     a {
